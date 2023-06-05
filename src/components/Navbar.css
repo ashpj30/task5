@@ -1,0 +1,107 @@
+/* Styles for larger screens */
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-container {
+  display: flex;
+  margin-right: 10px;
+} 
+
+.select-container select {
+  margin-left: 90px;
+  border: none;
+  outline: none;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+}
+
+li {
+  margin-right: 70px;
+}
+
+li:last-child {
+  margin-right: 10;
+}
+
+.drop1 ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.drop1 li {
+  margin-right: 70px;
+  margin-left: 1px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 36px;
+  color: #262626;
+}
+
+.drop1 img {
+  margin-left: 60px;
+}
+
+.home {
+  text-align: center;
+  background: #F6F7F8;
+  height: 30px;
+}
+
+.home p {
+  display: inline;
+}
+
+.home1 {
+  text-align: center;
+  color: #33A0FF;
+}
+
+/* Responsive styles */
+@media (max-width: 700px) {
+  /* Styles for medium-sized screens and below */
+  .dropdown {
+    flex-direction: column;
+  }
+
+  .select-container {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .select-container select {
+    margin-left: 0;
+  }
+
+  ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  li {
+    margin: 5px;
+  }
+
+  .drop1 li {
+    margin: 5px;
+    font-size: 18px;
+  }
+
+  .drop1 img {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

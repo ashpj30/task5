@@ -1,0 +1,109 @@
+.table {
+    list-style-type: none;
+    margin-left: 40px;
+    overflow: hidden;
+    width: 93%;
+    display: flex;
+    color: black;
+    position: absolute;
+    height: 270px;
+    left: -3px;
+    top: 160.33px;
+   
+  }
+  .table th{
+    width: 1000px;
+  }
+  /* .table td:first-child {
+    width: 680px;
+    margin-left: 50px;
+  } */
+
+  .table1{
+    position: absolute;
+left: 70.3%;
+right: 22.63%;
+top: 65.82%;
+bottom: 55.83%;
+width: 350px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+border-spacing: 7px;
+
+color: #262626;
+  }
+  .table1 button{
+    width: 200px;
+    height: 35px;
+    color: white;
+    background-color: #33A0FF;
+    margin-left: 0px;
+    margin-right: 150px;
+  }
+  .table1 td{
+text-align: left;
+  }
+ .box{
+    background: #F6F7F8;
+    width: 120px;
+    height: 30px;
+    margin-left: 140px;
+  }
+  button{
+    background: #F6F7F8;
+    color: #33A0FF;
+    border: none;
+    cursor: pointer;
+  }
+.coupon{
+    
+position: absolute;
+left: 1.03%;
+right: 66.5%;
+top: 74.87%;
+bottom: 54.24%;
+}
+.coupon input{
+    height: 30px;
+    border: none;
+}
+.coupon button{
+    background: #33A0FF;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+.brand{
+position: absolute;
+left: 14.8%;
+right: 64.03%;
+top: 21.89%;
+bottom: 76.77%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+/* identical to box height */
+color: #262626;
+}
+.brand1{
+    position: absolute;
+    left: 14.8%;
+    right: 64.03%;
+    top: 66.89%;
+    bottom: 76.77%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #262626;
+    }
